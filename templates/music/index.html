@@ -1,0 +1,12 @@
+ {% if object_list %}
+<ul>  
+	<h3>Here are all my albums!!</h3>
+	{% for album in object_list  %}
+<li><a href="{{album.id}}">{{album.album_title}}</a></li>
+
+{% endfor%}
+
+</ul>
+{%else%}
+<h3>You don't have any albums</h3>
+{% endif %}
