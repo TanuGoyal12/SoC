@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    /* background-color: red; */
+}
+.botton{
+      /*background-color: white;*/
+font-size: 100;
+/* offset-distance: 10; */
+    width: 30px;height:30px;
+    /* border-radius: 0; */
+    margin: 1px;
+    background-color: rgb(52, 218, 52);
+    color:white;
+    cursor:pointer;
+} 
+.textview{
+margin: 2px;
+    width:123px;
+    padding: 3px;
+}
+.main{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background:rgb(199, 173, 173);
+}
+.bg{
+   
+    background: linear-gradient(to right,rgb(230, 58, 135),rgb(102, 180, 235)); height:100vh;
+    background-color: red;
+}
